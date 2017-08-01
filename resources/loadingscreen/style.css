@@ -1,0 +1,101 @@
+@import url(loader.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Baloo:400,700);
+
+body, #body_wrapper{ 
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+	background:url("http://worthprods.com/images/tex_n3mtv_mountain.jpg") repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#gta5_logo {
+	position:absolute;
+	left:50px;
+	bottom:50px;
+}
+body {
+  height: 100vh;
+  /*font-family: "Montserrat", sans-serif;*/
+  font-family: "Baloo", sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+body h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #FFF;
+  padding: 30px 0px 0px 0px;
+}
+body h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #cbdced;
+  padding: 10px 0px 0px 0px;
+}
+body h2 b {
+  background-color:#4b367c;
+  color:#FFF;
+  padding:3px 8px;
+  border-radius:10px;
+  font-family:"Open Sans", sans-serif;
+  font-weight:200;
+}
+body h1, body h2 {
+	display:block;
+	text-align:left;
+	padding-left:50px;
+}
+body h3 {
+  margin: 0 auto;
+  position:relative;
+  top:720px;
+  font-size:18px;
+  color:#DDD;
+}
+body .loader {
+  height: 100%;
+  position: relative;
+  margin: auto;
+  width: 60%;
+  z-index:6;
+}
+.loadbar
+{
+    width: 100%;
+    background-color: rgba(140, 140, 140, .9);
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+	top:740px;
+    display: block;
+	border-radius:10px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,ffffff+100&1+0,0+100 */
+	background: -moz-linear-gradient(top, rgba(234,234,234,0.5) 0%, rgba(255,255,255,0.1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(234,234,234,0.5) 0%,rgba(255,255,255,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(234,234,234,0.5) 0%,rgba(255,255,255,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.scroll
+{
+	border-radius:10px;
+    width: 10%;
+    background-color: #eee;
+    height: 20px;
+    position: absolute;
+    left: 0%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22490a+0,598622+50,2989d8+50,c0c7bb+51,789457+51,54831f+100 */
+	background: rgb(34,73,10); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(34,73,10,1) 0%, rgba(89,134,34,1) 50%, rgba(41,137,216,1) 50%, rgba(192,199,187,1) 51%, rgba(120,148,87,1) 51%, rgba(84,131,31,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(34,73,10,1) 0%,rgba(89,134,34,1) 50%,rgba(41,137,216,1) 50%,rgba(192,199,187,1) 51%,rgba(120,148,87,1) 51%,rgba(84,131,31,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(34,73,10,1) 0%,rgba(89,134,34,1) 50%,rgba(41,137,216,1) 50%,rgba(192,199,187,1) 51%,rgba(120,148,87,1) 51%,rgba(84,131,31,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22490a', endColorstr='#54831f',GradientType=0 ); /* IE6-9 */
+}

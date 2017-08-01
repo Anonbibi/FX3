@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.help{
+  height: 70vh;
+  width: 70vw;
+  margin-left: 25vw;
+  margin-top: 20vh;
+  padding: 4vh;
+  padding-top: 1vh;
+  background-color: rgba(44, 62, 80, 0.9);
+  color: rgba(236, 240, 241,1.0);
+}
+h1{
+  margin-top: 0;
+  color: rgba(236, 240, 241,1.0);
+  font-size: 2em;
+  margin: 0.7em;
+}
+h3{
+  color: rgba(236, 240, 241,1.0);
+  font-size: 1.5em;
+  margin: 0.6em;
+}
+.important{
+  font-weight: 700;
+  color: rgba(236, 240, 241,1.0);
+}
+
+.color{
+  color: rgba(211, 84, 0,1.0);
+}
+
+.color2{
+  color: rgba(255, 0, 0,1.0);
+}
+
+p{
+    margin: 0.2em;
+}
+

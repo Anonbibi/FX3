@@ -1,0 +1,255 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'pricedown';
+  src: url(pricedown.ttf);
+}
+
+.over{
+    position: absolute;
+    display: block;
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: 7px;
+    right: 11px;
+    bottom: 8px;
+    /* border-radius: 14px; */
+    /* background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, */
+    /* rgba(241,241,241,0.3) 50%, */
+    /* rgba(225,225,225,0.2) 51%, */
+    /* rgba(246,246,246,0.1) 100%);  */
+}
+#cursor {
+    position: absolute;
+    z-index: 99999999;
+    display: none;
+}
+#identity{
+  position: absolute;
+  width: 729px;
+  height: 537px;
+  background-image: url('ci_h.png');
+  bottom: 150px;
+  right: 100px;
+  font-weight:700;
+}
+
+#nom{
+    position: absolute;
+    top: 292px;
+    left: 489px;
+    width: 118px;
+    height: 20px;
+    /* text-align: center; */
+}
+
+#prenom{
+  position: absolute;
+  top: 330px;
+  left: 489px;
+  width: 118px;
+  height: 20px;
+  /* text-align: center; */
+}
+
+#dateNaissance{
+  position: absolute;
+  top: 330px;
+  left: 618px;
+  width: 118px;
+  height: 20px;
+  /* text-align: center; */
+}
+
+#sexe{
+  position: absolute;
+  top: 370px;
+  left: 489px;
+  width: 118px;
+  height: 20px;
+  /* text-align: center; */
+}
+
+#taille{
+  position: absolute;
+  top: 370px;
+  left: 618px;
+  width: 118px;
+  height: 20px;
+  /* text-align: center; */
+}
+
+#jobs{
+  position: absolute;
+  top: 440px;
+  left: 618px;
+  width: 118px;
+  height: 20px;
+  /* text-align: center; */
+}
+
+#numCarte{
+    display: block;
+    position: absolute;
+    top: 486px;
+    left: 340px;
+    /* right: -10px; */
+    /* bottom: 0; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#permisvoiture {
+    position: absolute;
+	/* color: white; */
+    top: 325px;
+    left: 130px;
+    width: 118px;
+    height: 20px;
+	font-family: 'pricedown';
+    /* text-align: center; */
+}
+
+#permisbateaux {
+    position: absolute;
+	color: white;
+    top: 380px;
+    left: 130px;
+    width: 118px;
+    height: 20px;
+	font-family: 'pricedown';
+    /* text-align: center; */
+}
+
+#permishelico {
+    position: absolute;
+	color: white;
+    top: 430px;
+    left: 130px;
+    width: 118px;
+    height: 20px;
+	font-family: 'pricedown';
+    /* text-align: center; */
+}
+
+#permisavion {
+    position: absolute;
+	color: white;
+    top: 480px;
+    left: 130px;
+    width: 118px;
+    height: 20px;
+	font-family: 'pricedown';
+    /* text-align: center; */
+}
+
+#portarmeleg {
+    position: absolute;
+	color: white;
+    top: 70px;
+    left: 130px;
+    width: 118px;
+    height: 20px;
+	font-family: 'pricedown';
+    /* text-align: center; */
+}
+
+#portarmelourd {
+    position: absolute;
+	color: white;
+    top: 130px;
+    left: 130px;
+    width: 118px;
+    height: 20px;
+	font-family: 'pricedown';
+    /* text-align: center; */
+}
+
+#licencegrandbandi {
+    position: absolute;
+	color: white;
+    top: 185px;
+    left: 130px;
+    width: 118px;
+    height: 20px;
+	font-family: 'pricedown';
+    /* text-align: center; */
+}
+
+#register{
+  background-color: rgba(44, 62, 80,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#registerFrom{
+  background-color: white;
+    width: 550px;
+  padding: 20px;
+}
+#register h1 {
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 10px 50px;
+  text-align: center;
+
+}
+#register .champ{
+  margin-bottom: 6px;
+}
+
+.champ label{
+  display: block;
+  color: black;
+  background-color: white;
+  height: 28px;
+  line-height: 28px;
+  font-size: 24px;
+  padding: 4px 14px;
+}
+.champ input[type="number"],
+.champ input[type="text"]{
+  display: block;
+  margin-left: 22px;
+  height: 38px;
+  width: 508px;
+  padding-left: 10px;
+  background-color: lightgray;
+  border: 1px solid black;
+  font-size: 22px; 
+}
+
+.champ .lcheck{
+  display: inline-block;
+}
+
+
+.champ input[type="radio"]{
+  height: 16px;
+  width: 16px;
+}
+
+button{
+  background-color: lightgray;
+  color:black;
+  font-weight: 700;
+  margin: 15px 50px;
+  padding: 10px 20px;
+  border: 1px solid darkgray;
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
